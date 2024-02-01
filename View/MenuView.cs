@@ -6,6 +6,7 @@ namespace ScreenSound.view{
     
     internal class MenuView{
         
+        private string? menuOption = "";
         private bool keepAsking = true; //Will be used to ask the option
         private void Apresentation(){ //Responsible for the screenSound appresentations
             Console.WriteLine(@"
@@ -29,27 +30,25 @@ namespace ScreenSound.view{
         }
 
         private void AskMenuOption(){ //Will ask the user the option
-            
-            string menuOption = "";
-
+           
             try{
 
                 Console.Write("Please, write the menu option: ");
 
-                menuOption = Console.ReadLine()!;
+                this.menuOption = Console.ReadLine()!;
 
 
-                if (String.IsNullOrEmpty(menuOption) || String.IsNullOrWhiteSpace(menuOption)){
+                if (String.IsNullOrEmpty(this.menuOption) || String.IsNullOrWhiteSpace(this.menuOption)){
                     throw new IsnullException();
                 }
-                else if (!char.IsDigit(menuOption[0])){
+                else if (!char.IsDigit(this.menuOption[0])){
                     throw new IsNotAIntegerException();
                 }
-                else if (char.IsDigit(menuOption[0]) && int.Parse(menuOption) > 9){
-                    throw new InvalidOptionException(menuOption);
+                else if (char.IsDigit(this.menuOption[0]) && int.Parse(this.menuOption) > 9){
+                    throw new InvalidOptionException(this.menuOption);
                 }
                 else {
-                    Console.WriteLine($"The chosed option were {menuOption} how?");
+                    Console.WriteLine($"The chosed option were {this.menuOption} how?");
 
                     this.keepAsking = false;    
                 }
@@ -74,6 +73,39 @@ namespace ScreenSound.view{
 
                 this.AskMenuOption();
 
+            }
+
+            switch (Convert.ToInt32(this.menuOption)){
+                case 1:
+                    Console.WriteLine("Welcome to Register band");
+                    break;
+                case 2:
+                    Console.WriteLine("Unvailable Now");
+                    break;
+                case 3:
+                    Console.WriteLine("Unvailable Now");
+                    break;
+                case 4:
+                    Console.WriteLine("Unvailable Now");
+                    break;
+                case 5:
+                    Console.WriteLine("Unvailable Now");
+                    break;
+                case 6:
+                    Console.WriteLine("Unvailable Now");
+                    break;
+                case 7:
+                    Console.WriteLine("Unvailable Now");
+                    break;
+                case 8:
+                    Console.WriteLine("Unvailable Now");
+                    break;
+                case 9:
+                    Console.WriteLine("Bye");
+                    break;
+                default:
+                    Console.WriteLine("Wrong shoice");
+                    break;
             }
         }
     }
