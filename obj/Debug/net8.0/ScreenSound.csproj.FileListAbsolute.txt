@@ -1,0 +1,14 @@
+/home/brenno/Documents/c_sharp/ScreenSound/bin/Debug/net8.0/ScreenSound
+/home/brenno/Documents/c_sharp/ScreenSound/bin/Debug/net8.0/ScreenSound.deps.json
+/home/brenno/Documents/c_sharp/ScreenSound/bin/Debug/net8.0/ScreenSound.runtimeconfig.json
+/home/brenno/Documents/c_sharp/ScreenSound/bin/Debug/net8.0/ScreenSound.dll
+/home/brenno/Documents/c_sharp/ScreenSound/bin/Debug/net8.0/ScreenSound.pdb
+/home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+/home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ScreenSound.AssemblyInfoInputs.cache
+/home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ScreenSound.AssemblyInfo.cs
+/home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ScreenSound.csproj.CoreCompileInputs.cache
+/home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ScreenSound.dll
+/home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/refint/ScreenSound.dll
+/home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ScreenSound.pdb
+/home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ScreenSound.genruntimeconfig.cache
+/home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ref/ScreenSound.dll
