@@ -79,7 +79,7 @@ namespace ScreenSound.view{
                 case 1:
                     RegisterBandView registerBandView = new RegisterBandView();
                     
-                    registerBandView.main();
+                    registerBandView.Main();
                     break;
                 case 2:
                     Console.WriteLine("Unvailable Now");
