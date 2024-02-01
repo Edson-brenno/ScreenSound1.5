@@ -3,7 +3,7 @@ using ScreenSound.view.Error;
 
 namespace ScreenSound.view.MenuExceptions{
 
-    public class IsnullException: Exception{
+    internal class IsnullException: Exception{
         
         public IsnullException(){
             

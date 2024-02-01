@@ -4,7 +4,7 @@ using ScreenSound.view.MenuExceptions;
 
 namespace ScreenSound.view{
     
-    class MenuView{
+    internal class MenuView{
         
         private bool keepAsking = true; //Will be used to ask the option
         private void Apresentation(){ //Responsible for the screenSound appresentations

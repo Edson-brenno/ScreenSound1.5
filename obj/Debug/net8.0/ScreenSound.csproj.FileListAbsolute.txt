@@ -12,3 +12,4 @@
 /home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ScreenSound.pdb
 /home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ScreenSound.genruntimeconfig.cache
 /home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ref/ScreenSound.dll
+/home/brenno/Documents/c_sharp/ScreenSound/obj/Debug/net8.0/ScreenSound.sourcelink.json

@@ -3,7 +3,7 @@ using ScreenSound.view.Error;
 
 namespace ScreenSound.view.MenuExceptions{
 
-    class InvalidOptionException: Exception{
+    internal class InvalidOptionException: Exception{
 
         public InvalidOptionException(string chosedOption){
             

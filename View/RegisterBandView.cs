@@ -2,7 +2,7 @@ using System;
 
 namespace ScreenSound.view{
 
-    public class RegisterBandView{
+    internal class RegisterBandView{
 
 
     }

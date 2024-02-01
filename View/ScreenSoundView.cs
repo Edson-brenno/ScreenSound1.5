@@ -2,7 +2,7 @@ using System;
 
 namespace ScreenSound.view{
 
-    public class ScreenSoundView{
+    internal class ScreenSoundView{
         
         public static void Apresentation(){
 

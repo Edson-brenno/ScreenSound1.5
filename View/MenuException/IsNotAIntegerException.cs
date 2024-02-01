@@ -3,7 +3,7 @@ using ScreenSound.view.Error;
 
 namespace ScreenSound.view.MenuExceptions{
 
-    public class IsNotAIntegerException: Exception{
+    internal class IsNotAIntegerException: Exception{
         
         public IsNotAIntegerException(){
             

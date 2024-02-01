@@ -2,7 +2,7 @@ using System;
 
 namespace ScreenSound.view{
 
-    public class FinishingApplicationView{
+    internal class FinishingApplicationView{
 
         static public void FinishHandler(object sender, ConsoleCancelEventArgs args){
 
