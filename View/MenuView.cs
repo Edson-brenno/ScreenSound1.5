@@ -77,7 +77,9 @@ namespace ScreenSound.view{
 
             switch (Convert.ToInt32(this.menuOption)){
                 case 1:
-                    Console.WriteLine("Welcome to Register band");
+                    RegisterBandView registerBandView = new RegisterBandView();
+                    
+                    registerBandView.main();
                     break;
                 case 2:
                     Console.WriteLine("Unvailable Now");

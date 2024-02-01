@@ -15,5 +15,8 @@ namespace ScreenSound.view{
             Console.WriteLine("==============================================");
         }
 
+        public void main(){
+            this.Apresentation();
+        }
     }
 }
