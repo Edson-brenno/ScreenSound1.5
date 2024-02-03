@@ -59,6 +59,11 @@ namespace ScreenSound.view{
             
         }
 
+        private void AskBandNameConfirmation(){
+
+            
+        }
+
         public void Main(){
             this.Apresentation();
             this.AskBandName();
